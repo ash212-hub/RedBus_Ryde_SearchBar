@@ -1,0 +1,221 @@
+#outer{
+    width: 85%;
+    border: 1px solid black;
+    position: absolute;
+    top: 125px;
+    left: 96px;
+    background-color: #fff;
+    border-radius: 9px;
+    box-shadow: 0 0.333333px 1.5px rgb(0 0 0/4%), 0 1.25px 5px rgba(0,0,0,.19);
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  
+  
+  }
+  .hed1{
+    text-transform: capitalize;
+    color:black;
+    background: white;
+    font-size: 19px;
+    font-weight: 400;
+    padding: 12px;
+    margin-top: 0px;
+}
+  #hed{
+    display: flex;
+    margin-top: 20px;
+    background: white;
+    position: relative;
+    left: 15px;
+  }
+  #main{
+    width: 95%;
+    height: 69px;
+    border: 1px solid black;
+    position: relative;
+    left: 25px;
+    top: 6px;
+    display: grid;
+    grid-template-columns: 204px 200px auto auto 180px;
+    border-radius: 6px;
+  
+  }
+  #search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background: #d84e55;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 0 6px 6px 0;
+    
+  }
+  #pick{
+    width: 98%;
+    height: 98%;
+    border-right: 1px solid black;
+    display: flex;
+    align-items: center;
+    padding-left: 3px;
+    background: white;
+    overflow: hidden;
+    border-radius: 6px 0px 0px 6px;
+    transition: all 0.5s;
+    
+}
+#up{
+    background: white;
+    z-index: 20;
+    margin-left: 15px;
+    position: relative;
+    top: 0px;
+
+}
+#pickup{
+    width: 18%;
+    height: 50%;
+    position: absolute;
+    top: 20px;
+    left: 5px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background: white;
+    z-index: 100;
+    background: transparent;
+}
+#pickin{
+    z-index: 20;
+    font-size: 18px;
+    background: white;
+    color: #b7b4b4;
+    position: relative;
+    top: 0px;
+
+}
+
+#drop label{
+    z-index: 20;
+    font-size: 17px;
+    background: white;
+    color: #b7b4b4;
+    width: 153px;
+
+}
+#send{
+  position: absolute;
+  top: 16px;
+  left: 188px;
+  width: 30px;
+  height: 40px;
+}
+
+
+
+#drop{
+    width: 98%;
+    height: 98%;
+    border-right: 1px solid black;
+    display: flex;
+    align-items: center;
+    padding-left: 3px;
+    background: white;
+    overflow: hidden;
+    border-radius: 6px 0px 0px 6px;
+    
+}
+#down{
+    background: white;
+    z-index: 20;
+    margin-left: 15px;
+    position: relative;
+    top: 0px;
+}
+#pickdown{
+    width: 15%;
+    height: 50%;
+    position: absolute;
+    top: 20px;
+    left: 225px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background: white;
+    z-index: 100;
+    background: transparent;
+  
+}
+#downin{
+    z-index: 20;
+    font-size: 18px;
+    background: white;
+    color: #b7b4b4;
+    position: relative;
+    top: 0px;
+}
+
+#date{
+    width: 97%;
+    height: 98%;
+    border-right: 1px solid black;
+    display: flex;
+    align-items: center;
+    padding-left: 3px;
+    background: white;
+    overflow: hidden;
+    border-radius: 6px 0px 0px 6px;
+    
+}
+#dateimg{
+    background: white;
+    z-index: 20;
+    margin-left: 15px;
+}
+#dateup{
+    width: 18%;
+    height: 50%;
+    position: absolute;
+    top: 20px;
+    left: 5px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background: white;
+    z-index: 22;
+    background: transparent;
+}
+#date label{
+    z-index: 20;
+    font-size: 18px;
+    background: white;
+    color: #b7b4b4;
+}
+  #end{
+    width: auto;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #enddown{
+    width: 25px;
+    height: 25px;
+  }
+  #end label{
+    z-index: 20;
+    font-size: 18px;
+    background: white;
+    color: #b7b4b4;
+  }
+  #bar{
+    width: 110px;
+    height: 4px;
+    background: red;
+    position: absolute;
+    top: 40px;
+    left: 0px;
+  }
